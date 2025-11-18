@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <nav>
+        <div class="main_nav_tittle">ALTANSCHOOL WEB COURSES</div>
+        <div class="main_nav_menu">
+          <div class="main_nav_menu_list" id="menu_list">
+            <div id="closeMenu">X</div>
+            <ul>
+              <li><a href="#main">HOME</a></li>
+              <li><a href="#aboutUs">ABOUT</a></li>
+              <li><a href="#shopBy">SHOP</a></li>
+              <li><a href="#collection">BLOG</a></li>
+              <li><a href="#follow">CONTACT</a></li>
+            </ul>
+          </div>
+          <div class="main_nav_menu_burg" >
+            <img src="./img/burg.png" id="showMenu" alt="menu" />
+          </div>
+        </div>
+      </nav>
+      <div class="main_show" id="main">
+        <div class="main_show_img" >
+          <img src="./img/main1.png" alt="flower" />
+        </div>
+        <div class="main_show_info">
+          <div class="main_show_info_tittle">ORGANIC FASHION</div>
+          <div class="main_show_info_data">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </div>
+          <div class="main_show_info_button" id="menu_burder">
+            <button>SHOP NOW</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="shop_by_cat" id="shopBy">
+      <div class="shop_by_cat_tittle">SHOP BY CATEGORIES</div>
+      <div class="shop_by_cat_img">
+        <div class="shop_by_cat_img_line1">
+          <img src="./img/shop_by_1.png" alt="category1" />
+          <img src="./img/shop_by_2.png" alt="category2" />
+          <img src="./img/shop_by_3.png" alt="category3" />
+          <img src="./img/shop_by_4.png" alt="category4" />
+        </div>
+        <div class="shop_by_cat_img_line2">
+          <img src="./img/shop_by_5.png" alt="category5" />
+        </div>
+      </div>
+    </div>
+    <div class="new_collection" id="collection">
+      <div class="new_collection_tittle">NEW COLLECTION</div>
+      <div class="new_collection_info">
+        <div class="new_collection_info_img">
+          <img src="./img/collection1.png" alt="colecrion1" />
+          <img
+            src="./img/collection2.png"
+            class="img_colletionBig"
+            alt="colecrion2"
+          />
+          <img src="./img/collection3.png" alt="colecrion3" />
+        </div>
+        <div class="new_collection_info_data">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </div>
+      </div>
+    </div>
+    <div class="about_us" id="aboutUs">
+      <div class="about_img">
+        <img id="about_big" src="./img/about.png" alt="we" />
+        <img id="about_small" src="./img/about_small.png" alt="we" />
+      </div>
+      <div class="about_info">
+        <div class="about_info_tittle">ABOUT US</div>
+        <div class="about_info_data_first">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </div>
+        <div class="about_info_data_second">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book.
+        </div>
+        <div class="about_info_button">
+          <button>LEARN MORE</button>
+        </div>
+      </div>
+    </div>
+    <div class="follow_us" id="follow">
+      <div class="folow_us_info">
+        <div class="folow_us_info_tittle">FOLLOW US</div>
+        <form action="" class="folow_us_info_form" onsubmit="">
+          <textarea name="name" placeholder="Enter your name"></textarea>
+          <textarea
+            name="email"
+            placeholder="Enter a valid email address"
+          ></textarea>
+          <textarea name="message" placeholder="Enter your message" class="textAreaMess"></textarea>
+          <button type="submit">SUBMIT</button>
+        </form>
+      </div>
+      <div class="follow_us_img">
+        <img src="./img/follow_us.png" alt="follow_us" />
+      </div>
+    </div>
+  
+    <script src="./script.js"></script>
+  </body>
+</html>
