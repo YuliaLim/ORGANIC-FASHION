@@ -90,7 +90,7 @@ body .new_collection {
 }
 body .new_collection .new_collection_info_img {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   overflow: hidden;
 }
 body .about_us {
